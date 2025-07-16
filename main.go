@@ -10,7 +10,5 @@ func main() {
 
     file, _ := os.Open("nonexistent.txt") // error is ignored
 
-    fmt.Println("Hello, Linter!") // no newline at end of file
-
-    
+    fmt.Println("Hello, Linter!") // no newline at end of file 
 }
